@@ -107,7 +107,7 @@ export default function HowItWorks(props: componentProps) {
                   <li className="mt-6 txtlight">
                     Send us an email{" "}
                     <span
-                      className={`${styles.linkcopy} txtlight`}
+                      className={`${styles.linkcopy} txtlight cursor-pointer`}
                       onClick={() => handleInfoEmailOnClick()}
                     >
                       barks@barksandbubbles.com
