@@ -192,7 +192,7 @@ const Hero = () => {
             </h2>
           </div>
 
-          <div id="thebody" className="mt-8 w-3/5 md:mt-10 md:w-9/10">
+          <div id="thebody" className="mt-8 w-3/5 md:mt-10 md:w-9/10 z-[600]">
             <div className={`${styles.bodytxt}`}>
               Professional grooming care, all in one convenient&nbsp;place
               (we&nbsp;also&nbsp;have&nbsp;treats).
@@ -231,7 +231,7 @@ const Hero = () => {
                   }
                   onClick={() => handleInfoEmailOnClick()}
                 >
-                  <p>barks@barksandbubbles.com</p>
+                  barks@barksandbubbles.com
                 </div>
               </div>
               <div className="flex flex-row mt-2">

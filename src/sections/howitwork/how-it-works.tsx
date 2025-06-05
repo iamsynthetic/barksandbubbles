@@ -15,6 +15,14 @@ export default function HowItWorks(props: componentProps) {
   );
   const isDesktop = useMediaQuery("only screen and (min-width : 1024px)");
 
+  const handleInfoEmailOnClick = () => {
+    window.open(
+      "mailto:chris.tomotsugu@gmail.com?subject=Barks%20&%20Bubbles%20Isnt%20A%20Real%20Site%20But%20You%20Can%20Still%20Email%20Me%20:)&body=Hi,%20I'm%20Chris,%20I%20designed%20the%20barks%20and%20bubbles%20site,%20thanks%20for%20clicking%20but%20this%20is%20just%20a%20mock%20site,%20but%20you%20can%20send%20me%20an%20email%20saying%20how%20much%20you%20liked%20it%20if%20you%20want%20:)",
+      "_self",
+      "noreferrer"
+    );
+  };
+
   return (
     <section
       style={{ marginTop: props.space }}
@@ -98,8 +106,11 @@ export default function HowItWorks(props: componentProps) {
                   </li>
                   <li className="mt-6 txtlight">
                     Send us an email{" "}
-                    <span className={`${styles.linkcopy} txtlight`}>
-                      barksbubbles@email.com
+                    <span
+                      className={`${styles.linkcopy} txtlight`}
+                      onClick={() => handleInfoEmailOnClick()}
+                    >
+                      barks@barksandbubbles.com
                     </span>
                   </li>
                   <li className="mt-6 txtlight">Fill out the contact form</li>
