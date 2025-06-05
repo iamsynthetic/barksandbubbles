@@ -30,8 +30,11 @@ const Timeslot: React.FC = () => {
 
   useEffect(() => {
     const timer = setTimeout(() => setAnimationKey(1), 100);
+    if (animationKey) {
+      return;
+    }
     return () => clearTimeout(timer);
-  }, []);
+  }, [animationKey]);
 
   const handleTimeClick = (time: string) => {
     if (selectedTime === time) {
