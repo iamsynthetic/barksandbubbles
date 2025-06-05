@@ -137,17 +137,17 @@ export default function About(props: componentProps) {
                     ABOUT US
                   </h3>
                   <h4
-                    className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)]`}
+                    className={`${styles.titletxt} text-[clamp(2.7rem,3.7vw,3.7rem)]`}
                   >
                     Our Story, Told
                   </h4>
                   <h4
-                    className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)] leading-7`}
+                    className={`${styles.titletxt} text-[clamp(2.7rem,3.7vw,3.7rem)] leading-7`}
                   >
                     With Tails
                   </h4>
                   <h4
-                    className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)] leading-16`}
+                    className={`${styles.titletxt} text-[clamp(2.7rem,3.7vw,3.7rem)] leading-16`}
                   >
                     Wagging
                   </h4>
