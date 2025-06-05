@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,500,700,900;1,500,700,900");
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500&display=swap"); */
+
+@import "tailwindcss";
+@plugin "daisyui";
+/* @plugin "daisyui" {
+  themes: light --default, dark --prefersdark, cupcake;
+} */
+@plugin "daisyui/theme" {
+  name: "mytheme";
+  default: true; /* set as default */
+  prefersdark: false; /* set as default dark mode (prefers-color-scheme:dark) */
+  color-scheme: light; /* color of browser-provided UI */
+
+  --color-base-100: #fff6e8;
+  --color-base-200: #77c2f3;
+  --color-base-300: #ff9fa7;
+  --color-base-content: #1c0221;
+  --color-primary: #fff6e8;
+  --color-primary-content: #2b2111;
+  --color-secondary: #77c2f3;
+  --color-secondary-content: #08151d;
+  --color-accent: #ff9fa7;
+  --color-accent-content: #300c0f;
+  --color-neutral: #1c0221;
+  --color-neutral-content: rgb(235, 205, 207);
+  --color-info: #43c59e;
+  --color-info-content: #0c392b;
+  --color-success: #77c2f3;
+  --color-success-content: #08151d;
+  --color-warning: #1c0221;
+  --color-warning-content: rgb(235, 205, 207);
+  --color-error: #ff9fa7;
+  --color-error-content: #1c0221;
+
+  /* border radius */
+  --radius-selector: 1rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+
+  /* base sizes */
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+
+  /* border size */
+  --border: 1px;
+
+  /* effects */
+  --depth: 1;
+  --noise: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ===== Scrollbar CSS ===== */
+
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  /* scrollbar-color: #ffea00 #e7e7e7; */
+  scrollbar-color: #43c59e #fff6e8;
+  scrollbar-gutter: stable;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: auto;
+  scrollbar-color: #43c59e #fff6e8;
+}
+
+*::-webkit-scrollbar-track {
+  background: #a9a9a9;
+  width: auto;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #fff6e8;
+  border-radius: 0px;
+  border: 0px solid #e7e7e7;
+}
+
+.colordark {
+  background-color: #1c0221;
+}
+.txtdark {
+  color: #1c0221;
+}
+.colorgreen {
+  background-color: #43c59e;
+}
+.txtgreen {
+  color: #43c59e;
+}
+.colorpink {
+  background-color: #ff9fa7;
+}
+.txtpink {
+  color: #ff9fa7;
+}
+.colorblue {
+  background-color: #77c2f3;
+}
+.txtblue {
+  color: #77c2f3;
+}
+.colorlight {
+  background-color: #fff6e8;
+}
+.txtlight {
+  color: #fff6e8;
+}
+.navitems {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.section-title {
+  font-family: "Shrikhand", cursive;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.btn-link {
+  text-decoration-line: none;
+}
+
+body.noScrollbarBlinkWebKit::-webkit-scrollbar {
+  display: none;
+}
+
+html.noScrollbarFirefox {
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.hidescroll {
+  overflow: hidden;
+  scrollbar-gutter: stable;
+}
+
+.showscroll {
+  overflow-x: hidden;
+  /* scrollbar-gutter:inherit; */
+}

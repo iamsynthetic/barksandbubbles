@@ -1,0 +1,54 @@
+/*---------------------------------- colors ----------------------------------*/
+
+$colordark: #1c0221; /* hex */
+$colorgreen: #43c59e; /* hex */
+$colorpink: #ff9fa7; /* hex */
+$colorblue: #77c2f3; /* hex */
+$colorlight: #fff6e8; /* hex */
+$bg-colordark: rgba($colordark, 1);
+$bg-colorgreen: rgba($colorgreen, 1);
+$bg-colorpink: rgba($colorpink, 1);
+$bg-colorblue: rgba($colorblue, 1);
+$bg-colorlight: rgba($colorlight, 1);
+
+/*---------------------------------- end colors ----------------------------------*/
+
+.hide {
+  display: none;
+}
+
+.pretitletxt {
+  color: $colordark;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  white-space: nowrap;
+  // font-size: 20px;
+}
+.titletxt {
+  color: $colordark;
+  z-index: 31;
+  font-family: "Shrikhand", serif;
+  font-weight: 400;
+  font-style: normal;
+  white-space: nowrap;
+  // filter: drop-shadow(4px 3px 0px rgba(28, 2, 33, 0.4));
+}
+
+.titlecopy {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 32px;
+}
+.bodycopy {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.linkcopy {
+  color: $colorblue;
+}
