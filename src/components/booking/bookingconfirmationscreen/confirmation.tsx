@@ -194,7 +194,6 @@ const Confirmation = () => {
           style={{
             maxHeight: "540px",
             overflowY: "auto",
-            // width: "100%", // Ensure the container fills the parent width
           }}
         >
           {currentleft.map((item) => (

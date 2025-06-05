@@ -11,7 +11,7 @@ const Stylist = () => {
     {
       id: 1,
       label: "Michelle",
-      img: "/public/images/stylist-img1.png",
+      img: "/images/stylist-img1.png",
       alt: "an image of a woman named Michelle, wearing glasses and facing the left",
       bodytxt:
         "One-on-one training to master the basics sit, stay, come, and heel like a total superstar.",
@@ -19,7 +19,7 @@ const Stylist = () => {
     {
       id: 2,
       label: "Ingrid",
-      img: "/public/images/stylist-img2.png",
+      img: "/images/stylist-img2.png",
       alt: "an image of a woman named Ingrid, smiling at the camera",
       bodytxt:
         "Walk like a pro with private leash-training sessions no more pulling, zig-zagging, or street squirrel chases!",
@@ -27,7 +27,7 @@ const Stylist = () => {
     {
       id: 3,
       label: "Jason",
-      img: "/public/images/stylist-img3.png",
+      img: "/images/stylist-img3.png",
       alt: "an image of a man named Jason, wearing a baseball hat",
       bodytxt:
         "Full-behavior refresh including door etiquette, waiting for food, and not stealing your sandwich.",
@@ -35,7 +35,7 @@ const Stylist = () => {
     {
       id: 4,
       label: "Patrick",
-      img: "/public/images/stylist-img4.png",
+      img: "/images/stylist-img4.png",
       alt: "an image of a man named Patrick, facing the camera",
       bodytxt:
         "For nervous or reactive dogs private, calm, confidence-building sessions at your pup’s pace.",
@@ -43,7 +43,7 @@ const Stylist = () => {
     {
       id: 5,
       label: "Selena",
-      img: "/public/images/stylist-img5.png",
+      img: "/images/stylist-img5.png",
       alt: "an image of a woman named Selena wearing glasses and smiling",
       bodytxt:
         "Private sessions to teach polite greetings and stop those enthusiastic leaps (adorable, but not on Grandma!).",
@@ -51,7 +51,7 @@ const Stylist = () => {
     {
       id: 6,
       label: "Rae",
-      img: "/public/images/stylist-img6.png",
+      img: "/images/stylist-img6.png",
       alt: "an image of woman named Rae facing the right",
       bodytxt:
         "Personalized guidance for noisy pups who need help turning down the volume.",

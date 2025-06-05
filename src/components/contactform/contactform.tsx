@@ -109,7 +109,7 @@ const ContactForm = () => {
             required
             value={formData.name}
             onChange={handleChange}
-            className="mt-2 mb-6 ml-1 md:ml-4 py-4 rounded-lg colorlight border-1 border-[colordark]"
+            className="pl-3 mt-2 mb-6 ml-1 md:ml-4 py-4 rounded-lg colorlight border-1 border-[colordark]"
             disabled={isSubmitting}
           />
           {errors.name && <p style={{ color: "red" }}>{errors.name}</p>}
@@ -150,7 +150,7 @@ const ContactForm = () => {
             onChange={handleChange}
             rows={4}
             required
-            className="mt-2 mb-6 ml-1 md:ml-4 py-4 rounded-lg colorlight border-1 border-[colordark]"
+            className="pl-3 mt-2 mb-6 ml-1 md:ml-4 py-4 rounded-lg colorlight border-1 border-[colordark]"
             disabled={isSubmitting}
           ></textarea>
           {errors.message && <p style={{ color: "red" }}>{errors.message}</p>}
