@@ -76,11 +76,6 @@ export default function AppointmentBooking(props: componentProps) {
               >
                 Pup&#39;s Glow-Up
               </h4>
-              <h4
-                className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)] leading-8`}
-              >
-                Glow-Up
-              </h4>
 
               <div>
                 <hr className="border-t-6 rounded-2xl border-info w-2/3 mx-auto mt-7" />
