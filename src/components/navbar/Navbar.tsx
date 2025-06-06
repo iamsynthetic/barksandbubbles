@@ -4,6 +4,7 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { usePreloaderStore } from "../../store/preloaderStore";
 import styles from "./styles.module.scss";
+import ReactGA from "react-ga4";
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(true);
@@ -143,19 +144,27 @@ const Navbar = () => {
 
   const handleClick = (thesection: string): void => {
     handleNavToggle();
-    // console.log("handleclick");
     const section: HTMLElement | null = document.getElementById(thesection);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" } as ScrollOptions);
     }
+    ReactGA.event({
+      category: "main nav",
+      action: "click",
+      label: thesection,
+    });
   };
 
   const handleBookNowClick = (): void => {
-    console.log("handleBookNowClick");
     const section: HTMLElement | null = document.getElementById("booking");
     if (section) {
       section.scrollIntoView({ behavior: "smooth" } as ScrollOptions);
     }
+    ReactGA.event({
+      category: "main nav",
+      action: "click",
+      label: "book now in main nav",
+    });
   };
 
   useEffect(() => {
