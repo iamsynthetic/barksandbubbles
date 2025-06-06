@@ -184,7 +184,7 @@ const Bookingslider: React.FC<BookingsliderProps> = ({
 
   return (
     <>
-      <div className="flex w-[99%] md:w-full" {...handlers}>
+      <div className="flex ml-2 w-full md:w-full" {...handlers}>
         <div
           className="flex w-full"
           ref={trackRef}
