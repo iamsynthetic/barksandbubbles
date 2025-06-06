@@ -96,7 +96,7 @@ const ContactForm = () => {
       <form
         onSubmit={handleSubmit}
         noValidate
-        className="pt-12 pl-0 md:pl-10 pr-10 w-full"
+        className="pt-12 pl-5 md:pl-10 pr-10 w-full"
       >
         <div className="flex flex-col">
           <label className={`${styles.formcopy} px-1 md:px-5`} htmlFor="name">
@@ -153,7 +153,11 @@ const ContactForm = () => {
             className="pl-3 mt-2 mb-6 ml-1 md:ml-4 py-4 rounded-lg colorlight border-1 border-[colordark]"
             disabled={isSubmitting}
           ></textarea>
-          {errors.message && <p style={{ color: "red" }}>{errors.message}</p>}
+          {errors.message && (
+            <p style={{ color: "red", paddingLeft: "15px" }}>
+              {errors.message}
+            </p>
+          )}
         </div>
         <button
           type="submit"

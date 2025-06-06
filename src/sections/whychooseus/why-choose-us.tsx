@@ -76,18 +76,13 @@ export default function WhyChooseUs(props: componentProps) {
               <h4
                 className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)]`}
               >
-                Why Choose Us
-              </h4>
-              {/* <h4
-                className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)] leading-6`}
-              >
-                Nails, We've
+                Why
               </h4>
               <h4
-                className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)]`}
+                className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)] leading-6`}
               >
-                Got Answers
-              </h4> */}
+                Choose Us
+              </h4>
               <div>
                 <hr className="border-t-6 rounded-2xl border-secondary w-2/3 mx-auto mt-1" />
               </div>
