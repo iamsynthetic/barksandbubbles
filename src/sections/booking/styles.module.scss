@@ -70,3 +70,15 @@ $bg-colorlight: rgba($colorlight, 1);
   font-style: italic;
   font-size: 16px;
 }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (max-width: 475px) {
+  .bookingcontainer {
+    // content: "This is Chrome on mobile (likely)";
+    // display: block;
+    // color: red;
+
+    margin-left: -15px;
+  }
+
+  /* Your Chrome-on-mobile-specific styles here */
+}
