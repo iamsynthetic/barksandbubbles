@@ -49,17 +49,22 @@ export default function OurPromise(props: componentProps) {
               <h3
                 className={`${styles.pretitletxt} text-[clamp(1rem,1.5vw,1.5rem)] mb-1`}
               >
-                SERVICES & PRICING
+                OUR PROMISE
               </h3>
               <h4
                 className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)]`}
               >
-                Prices You Can
+                Paws Down
               </h4>
               <h4
                 className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)] leading-6`}
               >
-                Bark About
+                the Best
+              </h4>
+              <h4
+                className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)]`}
+              >
+                Groom
               </h4>
               <div>
                 <hr className="border-t-6 rounded-2xl border-accent w-2/3 mx-auto mt-7" />

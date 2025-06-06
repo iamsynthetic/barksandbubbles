@@ -55,10 +55,15 @@ export default function Services(props: componentProps) {
               <h4
                 className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)]`}
               >
-                Prices You Can
+                Prices
               </h4>
               <h4
                 className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)] leading-6`}
+              >
+                You Can
+              </h4>
+              <h4
+                className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)]`}
               >
                 Bark About
               </h4>
