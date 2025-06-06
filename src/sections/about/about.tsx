@@ -54,7 +54,7 @@ export default function About(props: componentProps) {
     >
       <div className="flex flex-col">
         <div id="thetitleDesktop" className="flex flex-col">
-          <div className="">
+          <div className={`${styles.aboutcontainer}`}>
             <div className="grid grid-cols-1fr grid-cols-12 gap-8">
               <div
                 className={
@@ -149,12 +149,7 @@ export default function About(props: componentProps) {
                   <h4
                     className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)]`}
                   >
-                    Tails
-                  </h4>
-                  <h4
-                    className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)]`}
-                  >
-                    Wagging
+                    Tails Wagging
                   </h4>
                   <div className="w-full">
                     <hr className="border-t-6 rounded-2xl border-info w-2/3 mx-auto mt-4" />

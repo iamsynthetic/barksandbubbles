@@ -67,23 +67,23 @@ export default function AppointmentBooking(props: componentProps) {
                 Snag a Spot
               </h4>
               <h4
-                className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)] leading-6`}
+                className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)]  leading-7`}
               >
-                For Your
+                For
               </h4>
               <h4
-                className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)]`}
+                className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)] `}
               >
-                Pup&#39;s
+                Your Pup&#39;s
               </h4>
               <h4
-                className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)]`}
+                className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)] leading-8`}
               >
                 Glow-Up
               </h4>
 
               <div>
-                <hr className="border-t-6 rounded-2xl border-info w-2/3 mx-auto mt-1" />
+                <hr className="border-t-6 rounded-2xl border-info w-2/3 mx-auto mt-7" />
               </div>
             </div>
           </div>

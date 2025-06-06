@@ -52,3 +52,15 @@ $bg-colorlight: rgba($colorlight, 1);
 .linkcopy {
   color: $colorblue;
 }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (max-width: 475px) {
+  .aboutcontainer {
+    // content: "This is Chrome on mobile (likely)";
+    // display: block;
+    // color: red;
+
+    margin-left: -20px;
+  }
+
+  /* Your Chrome-on-mobile-specific styles here */
+}
