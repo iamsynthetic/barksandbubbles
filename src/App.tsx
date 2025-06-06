@@ -11,7 +11,14 @@ import Services from "./sections/services/services.tsx";
 import Testimonials from "./sections/testimonials/testimonials.tsx";
 import WhyChooseUs from "./sections/whychooseus/why-choose-us.tsx";
 
+import ReactGA from "react-ga4";
+import { useEffect } from "react";
+
 function App() {
+  useEffect(() => {
+    ReactGA.initialize("G-QD52J52E8H");
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname, title:"app.tsx"})
+  }, []);
   return (
     <div className="mx-auto px-0 py-0 w-screen hidescroll">
       <div className="absolute w-full z-300">
