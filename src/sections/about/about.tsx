@@ -149,7 +149,7 @@ export default function About(props: componentProps) {
                   <h4
                     className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)]`}
                   >
-                    Tails Wagging
+                    Tails
                   </h4>
                   <h4
                     className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)]`}
