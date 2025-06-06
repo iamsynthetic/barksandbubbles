@@ -113,7 +113,16 @@ const ContactForm = () => {
             disabled={isSubmitting}
           />
           {errors.name && (
-            <p style={{ color: "red", paddingLeft: "15px" }}>{errors.name}</p>
+            <p
+              style={{
+                color: "red",
+                paddingLeft: "15px",
+                marginTop: "-20px",
+                marginBottom: "20px",
+              }}
+            >
+              {errors.name}
+            </p>
           )}
         </div>
 
@@ -136,7 +145,16 @@ const ContactForm = () => {
             disabled={isSubmitting}
           />
           {errors.email && (
-            <p style={{ color: "red", paddingLeft: "15px" }}>{errors.email}</p>
+            <p
+              style={{
+                color: "red",
+                paddingLeft: "15px",
+                marginTop: "-20px",
+                marginBottom: "20px",
+              }}
+            >
+              {errors.email}
+            </p>
           )}
         </div>
 
@@ -158,7 +176,14 @@ const ContactForm = () => {
             disabled={isSubmitting}
           ></textarea>
           {errors.message && (
-            <p style={{ color: "red", paddingLeft: "15px" }}>
+            <p
+              style={{
+                color: "red",
+                paddingLeft: "15px",
+                marginTop: "-20px",
+                marginBottom: "20px",
+              }}
+            >
               {errors.message}
             </p>
           )}
