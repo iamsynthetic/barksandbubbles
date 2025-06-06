@@ -88,6 +88,8 @@ export default function Testimonials(props: componentProps) {
                     dotcolor="bg-accent"
                     bgcolor="bg-neutral"
                     color="txtlight"
+                    border="2"
+                    bordercolor="colordark"
                   />
                   <Slide
                     name="Joan P."
@@ -96,6 +98,8 @@ export default function Testimonials(props: componentProps) {
                     dotcolor="bg-primary"
                     bgcolor="bg-accent"
                     color="txtdark"
+                    border="2"
+                    bordercolor="colordark"
                   />
                   <Slide
                     name="Linda W."
@@ -104,6 +108,8 @@ export default function Testimonials(props: componentProps) {
                     dotcolor="bg-primary"
                     bgcolor="bg-info"
                     color="txtdark"
+                    border="2"
+                    bordercolor="colordark"
                   />
                   <Slide
                     name="Sarah T. & Max the Golden"
@@ -112,6 +118,8 @@ export default function Testimonials(props: componentProps) {
                     dotcolor="bg-accent"
                     bgcolor="bg-neutral"
                     color="txtlight"
+                    border="2"
+                    bordercolor="colordark"
                   />
                   <Slide
                     name="Emily R."
@@ -120,6 +128,8 @@ export default function Testimonials(props: componentProps) {
                     dotcolor="bg-primary"
                     bgcolor="bg-accent"
                     color="txtdark"
+                    border="2"
+                    bordercolor="colordark"
                   />
                   <Slide
                     name="Carlos D. & Mochi"
@@ -128,6 +138,8 @@ export default function Testimonials(props: componentProps) {
                     dotcolor="bg-accent"
                     bgcolor="bg-info"
                     color="txtdark"
+                    border="2"
+                    bordercolor="colordark"
                   />
                   <Slide
                     name="Amanda B. & Princess Fluffington"
@@ -136,6 +148,18 @@ export default function Testimonials(props: componentProps) {
                     dotcolor="bg-accent"
                     bgcolor="bg-neutral"
                     color="txtlight"
+                    border="2"
+                    bordercolor="colordark"
+                  />
+                  <Slide
+                    name=""
+                    quote=""
+                    date=""
+                    dotcolor=""
+                    bgcolor=""
+                    color=""
+                    border="0"
+                    bordercolor="null"
                   />
                 </Slider>
               </div>

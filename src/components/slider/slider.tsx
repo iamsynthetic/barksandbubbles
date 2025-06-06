@@ -8,7 +8,7 @@ interface SliderProps {
   visibleCount?: number;
 }
 
-const Slider: React.FC<SliderProps> = ({ children, visibleCount = 2 }) => {
+const Slider: React.FC<SliderProps> = ({ children, visibleCount = 1 }) => {
   const hovercolor = "#FF9FA7";
   const defaultcolor = "#77C2F3";
 
