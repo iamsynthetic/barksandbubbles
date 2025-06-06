@@ -39,7 +39,7 @@ const Hotel = () => {
     },
     {
       id: 4,
-      label: "DayPlay Deluxe (Daycare Service)",
+      label: "DayPlay Deluxe",
       price: "$65",
       bodytxt:
         "A full day of supervised fun, cuddles, and enrichment activities while you’re at work or play. Zoomies guaranteed!",

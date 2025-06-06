@@ -112,7 +112,9 @@ const ContactForm = () => {
             className="pl-3 mt-2 mb-6 ml-1 md:ml-4 py-4 rounded-lg colorlight border-1 border-[colordark]"
             disabled={isSubmitting}
           />
-          {errors.name && <p style={{ color: "red" }}>{errors.name}</p>}
+          {errors.name && (
+            <p style={{ color: "red", paddingLeft: "15px" }}>{errors.name}</p>
+          )}
         </div>
 
         <div className="flex flex-col">
@@ -133,7 +135,9 @@ const ContactForm = () => {
             className="pl-3 mt-2 mb-6 ml-1 md:ml-4 py-4 rounded-lg colorlight border-1 border-[colordark]"
             disabled={isSubmitting}
           />
-          {errors.email && <p style={{ color: "red" }}>{errors.email}</p>}
+          {errors.email && (
+            <p style={{ color: "red", paddingLeft: "15px" }}>{errors.email}</p>
+          )}
         </div>
 
         <div className="flex flex-col">

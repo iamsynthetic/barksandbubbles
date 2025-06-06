@@ -23,7 +23,7 @@ const Slide = ({
 }: SlideProps) => {
   return (
     <div
-      className={`order-1 md:order-1 col-span-12 md:col-span-6 lg:col-span-6 xl:col-span-6 relative w-[350px] md:w-[516px] h-[450px] md:h-[400px] rounded-xl ${bgcolor} border-${border}  border-[${bordercolor}]`}
+      className={`order-1 md:order-1 col-span-12 md:col-span-6 lg:col-span-6 xl:col-span-6 relative w-[310px] md:w-[516px] h-[450px] md:h-[400px] rounded-xl ${bgcolor} border-${border}  border-[${bordercolor}]`}
     >
       <div className="flex flex-col md:flex-row w-full h-[maxcontent] pl-2 md:pl-10 pt-10 md:text-left">
         <div className="mt-2 md:mt-0">

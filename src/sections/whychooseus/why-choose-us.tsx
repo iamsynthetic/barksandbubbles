@@ -13,9 +13,9 @@ export default function WhyChooseUs(props: componentProps) {
   const isMobile = useMediaQuery(
     "only screen and (min-width : 0px) and (max-width : 600px)"
   );
-  const isTablet = useMediaQuery(
-    "only screen and (min-width : 601px) and (max-width : 1023px)"
-  );
+  // const isTablet = useMediaQuery(
+  //   "only screen and (min-width : 601px) and (max-width : 1023px)"
+  // );
   const isDesktop = useMediaQuery("only screen and (min-width : 1024px)");
 
   const { ispreloading } = usePreloaderStore();
@@ -54,7 +54,7 @@ export default function WhyChooseUs(props: componentProps) {
     >
       <div className="flex flex-col">
         <div id="thetitleDesktop" className="flex flex-col ">
-          <div className="mx-auto w-auto ">
+          <div className="mx-auto w-auto text-center">
             <div
               id="thetitleMobile"
               className={isDesktop ? `w-full` : `${styles.hide}`}
@@ -71,7 +71,7 @@ export default function WhyChooseUs(props: componentProps) {
 
             <div
               id="thetitleMobile"
-              className={isTablet || isMobile ? `w-full` : `${styles.hide}`}
+              className={isMobile ? `w-full` : `${styles.hide}`}
             >
               <h4
                 className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)]`}
@@ -84,7 +84,7 @@ export default function WhyChooseUs(props: componentProps) {
                 Choose Us
               </h4>
               <div>
-                <hr className="border-t-6 rounded-2xl border-secondary w-2/3 mx-auto mt-1" />
+                <hr className="border-t-6 rounded-2xl border-info w-2/3 mx-auto mt-7" />
               </div>
             </div>
           </div>
