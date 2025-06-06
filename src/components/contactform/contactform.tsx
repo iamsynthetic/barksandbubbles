@@ -96,7 +96,7 @@ const ContactForm = () => {
       <form
         onSubmit={handleSubmit}
         noValidate
-        className="pt-12 pl-10 pr-10 w-full"
+        className="pt-12 pl-0 md:pl-10 pr-10 w-full"
       >
         <div className="flex flex-col">
           <label className={`${styles.formcopy} px-1 md:px-5`} htmlFor="name">

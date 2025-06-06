@@ -149,7 +149,7 @@ const Accordion: React.FC<AccordionProps> = ({ items }) => {
           key={item.id}
           className={
             openItem === item.id
-              ? `${styles.titlecopy} btn${item.id} bg-[#77c2f3] rounded-md border-1 border-[colordark] mb-3 p-5 h-full shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] btn${item.id}`
+              ? `${styles.titlecopy} btn${item.id} rounded-md border-1 border-[colordark] mb-3 p-5 h-full btn${item.id}`
               : `${styles.titlecopy} btn${item.id} rounded-md border-1 border-[colordark] mb-3`
           }
         >

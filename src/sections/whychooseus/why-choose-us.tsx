@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { usePreloaderStore } from "../../store/preloaderStore";
+import { useMediaQuery } from "@uidotdev/usehooks";
 import styles from "./styles.module.scss";
 
 interface componentProps {
@@ -9,6 +10,14 @@ interface componentProps {
 }
 
 export default function WhyChooseUs(props: componentProps) {
+  const isMobile = useMediaQuery(
+    "only screen and (min-width : 0px) and (max-width : 600px)"
+  );
+  const isTablet = useMediaQuery(
+    "only screen and (min-width : 601px) and (max-width : 1023px)"
+  );
+  const isDesktop = useMediaQuery("only screen and (min-width : 1024px)");
+
   const { ispreloading } = usePreloaderStore();
 
   useGSAP(() => {
@@ -46,13 +55,42 @@ export default function WhyChooseUs(props: componentProps) {
       <div className="flex flex-col">
         <div id="thetitleDesktop" className="flex flex-col ">
           <div className="mx-auto w-auto ">
-            <h4
-              className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)] `}
+            <div
+              id="thetitleMobile"
+              className={isDesktop ? `w-full` : `${styles.hide}`}
             >
-              Why Choose Us
-            </h4>
-            <div>
-              <hr className="border-t-6 rounded-2xl border-accent w-2/3 mx-auto mt-3" />
+              <h4
+                className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)]`}
+              >
+                Why Choose Us
+              </h4>
+              <div>
+                <hr className="border-t-6 rounded-2xl border-accent w-2/3 mx-auto mt-3" />
+              </div>
+            </div>
+
+            <div
+              id="thetitleMobile"
+              className={isTablet || isMobile ? `w-full` : `${styles.hide}`}
+            >
+              <h4
+                className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)]`}
+              >
+                Why Choose Us
+              </h4>
+              {/* <h4
+                className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)] leading-6`}
+              >
+                Nails, We've
+              </h4>
+              <h4
+                className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)]`}
+              >
+                Got Answers
+              </h4> */}
+              <div>
+                <hr className="border-t-6 rounded-2xl border-secondary w-2/3 mx-auto mt-1" />
+              </div>
             </div>
           </div>
 

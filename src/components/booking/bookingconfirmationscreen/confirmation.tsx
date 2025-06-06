@@ -201,8 +201,8 @@ const Confirmation = () => {
               id={`trainingoption-${item.id}`}
               className={
                 currentBtn === item.id
-                  ? `trainingoptionbtn w-full col-span-12 md:h-32 mt-3 text-left rounded-lg border-1 colorblue cursor-pointer shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]`
-                  : `trainingoptionbtn w-full col-span-12 md:h-32 mt-3 text-left rounded-lg border-1 colorlight cursor-pointer`
+                  ? `trainingoptionbtn w-[98%] md:w-full col-span-12 md:h-32 mt-3 text-left rounded-lg border-1 colorblue cursor-pointer shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]`
+                  : `trainingoptionbtn w-[98%] md:w-full col-span-12 md:h-32 mt-3 text-left rounded-lg border-1 colorlight cursor-pointer`
               }
               key={item.id}
               onMouseEnter={() => handlemouseenter(item.id)}
