@@ -79,7 +79,7 @@ export default function AppointmentBooking(props: componentProps) {
                 </h4>
 
                 <div>
-                  <hr className="border-t-6 rounded-2xl border-info w-2/3 mx-auto mt-7" />
+                  <hr className="border-t-6 rounded-2xl border-info w-2/3 mx-auto mt-1" />
                 </div>
               </div>
             </div>
