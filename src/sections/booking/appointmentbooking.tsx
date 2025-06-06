@@ -74,7 +74,12 @@ export default function AppointmentBooking(props: componentProps) {
               <h4
                 className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)]`}
               >
-                Pup&#39;s Glow-Up
+                Pup&#39;s
+              </h4>
+              <h4
+                className={`${styles.titletxt} text-[clamp(2.75rem,3.75vw,3.75rem)]`}
+              >
+                Glow-Up
               </h4>
 
               <div>
