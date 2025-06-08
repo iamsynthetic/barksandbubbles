@@ -57,50 +57,64 @@ $bg-colorlight: rgba($colorlight, 1);
 
 .pretitlecopy {
   color: $colordark;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
   font-weight: 500;
   font-style: normal;
   font-size: 20px;
 }
 
 .titlecopy {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
   font-size: 28px;
 }
-
+.buttoncopy {
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+}
 .mobiletitlecopy {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
   font-size: 24px;
 }
+.pretitletxt {
+  color: $colordark;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
+  font-weight: 500;
+  font-style: normal;
+  // white-space: nowrap;
+  // font-size: 20px;
+}
 .bodycopy {
   color: $colordark;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
 }
 .mobilebodycopy {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
 }
 
 .pricecopy {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
 }
 
 .stepcopy {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
   font-weight: 500;
   font-style: normal;
   font-size: 14px;

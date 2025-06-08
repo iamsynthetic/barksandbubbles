@@ -15,7 +15,6 @@
 //   border: 1px solid #ccc;
 // }
 
-
 .slidercontainer {
   position: relative;
   width: 100%;
@@ -28,7 +27,13 @@
   overflow: hidden;
   flex-grow: 1;
 }
-
+.buttoncopy {
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+}
 .slidertrack {
   display: flex;
   transition: transform 0.3s ease-in-out;

@@ -113,7 +113,7 @@ export default function About(props: componentProps) {
                   </p>
                   <div className="mt-5">
                     <button
-                      className="menubtn btn btn-secondary rounded-xl pointer-cursor border-0"
+                      className={`${styles.buttoncopy} menubtn btn btn-secondary rounded-xl pointer-cursor border-0`}
                       onMouseEnter={() => handlemouseenter(".menubtn")}
                       onMouseLeave={() => handlemouseleave(".menubtn")}
                       onClick={handleClick}

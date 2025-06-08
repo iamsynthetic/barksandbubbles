@@ -153,8 +153,8 @@ const Training = () => {
               id={`trainingoption-${item.id}`}
               className={
                 currentBtn === item.id
-                  ? `trainingoptionbtn col-span-12 w-full md:h-56 lg:h-32 mt-3 text-left rounded-lg border-1 colorblue cursor-pointer`
-                  : `trainingoptionbtn col-span-12 w-full md:h-56 lg:h-32 mt-3 text-left rounded-lg border-1 colorlight cursor-pointer`
+                  ? `${styles.buttoncopy} trainingoptionbtn col-span-12 w-full md:h-56 lg:h-32 mt-3 text-left rounded-lg border-1 colorblue cursor-pointer`
+                  : `${styles.buttoncopy} trainingoptionbtn col-span-12 w-full md:h-56 lg:h-32 mt-3 text-left rounded-lg border-1 colorlight cursor-pointer`
               }
               key={item.id}
               onMouseEnter={() => handlemouseenter(item.id)}
@@ -204,8 +204,8 @@ const Training = () => {
               id={`trainingoption-${item.id}`}
               className={
                 currentBtn === item.id
-                  ? `trainingoptionbtn col-span-12 w-full md:h-56 lg:h-32 mt-3 rounded-lg border-1 colorblue`
-                  : `trainingoptionbtn col-span-12 w-full md:h-56 lg:h-32 mt-3 rounded-lg border-1 colorlight`
+                  ? `${styles.buttoncopy} trainingoptionbtn col-span-12 w-full md:h-56 lg:h-32 mt-3 rounded-lg border-1 colorblue`
+                  : `${styles.buttoncopy} trainingoptionbtn col-span-12 w-full md:h-56 lg:h-32 mt-3 rounded-lg border-1 colorlight`
               }
               key={item.id}
               onMouseEnter={() => handlemouseenter(item.id)}

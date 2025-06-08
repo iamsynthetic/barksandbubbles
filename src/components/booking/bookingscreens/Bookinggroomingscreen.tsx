@@ -131,8 +131,8 @@ const Bookinggroomingscreen = ({
             id={`groomingmenuitem-${item.id}`}
             className={
               currentBtn === item.id
-                ? `groomingmenuitem btn btn-secondary lg:btn-secondary rounded-lg h-8 w-full lg:w-36 cursor-pointer`
-                : `groomingmenuitem btn-secondary rounded-lg h-8 w-full lg:w-36 cursor-pointer`
+                ? `${styles.buttoncopy} groomingmenuitem btn btn-secondary lg:btn-secondary rounded-lg h-8 w-full lg:w-36 cursor-pointer`
+                : `${styles.buttoncopy} groomingmenuitem btn-secondary rounded-lg h-8 w-full lg:w-36 cursor-pointer`
             }
             key={item.id}
             onMouseEnter={() => handlemouseenter(item.id)}

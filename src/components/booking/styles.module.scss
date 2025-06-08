@@ -36,7 +36,7 @@
 
 .slide {
   flex-shrink: 0;
-  width:100%;
+  width: 100%;
 }
 
 .navbutton {
@@ -47,8 +47,21 @@
   cursor: pointer;
   z-index: 1;
 }
-
+.buttoncopy {
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+}
 .navbutton:disabled {
   opacity: 0.3;
   cursor: not-allowed;
+}
+.buttoncopy {
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
 }

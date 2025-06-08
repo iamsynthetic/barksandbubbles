@@ -214,7 +214,7 @@ const FinalConfirmation = () => {
               </div>
               <div className="mt-1">
                 <button
-                  className="btn btn-secondary rounded-xl"
+                  className={`${styles.buttoncopy} btn btn-secondary rounded-xl`}
                   onClick={() => handleitemclick(true)}
                 >
                   confirm

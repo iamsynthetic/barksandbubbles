@@ -115,7 +115,7 @@ const ContactForm = () => {
           {errors.name && (
             <p
               style={{
-                color: "red",
+                color: "#FFF6E8",
                 paddingLeft: "15px",
                 marginTop: "-20px",
                 marginBottom: "20px",
@@ -147,7 +147,7 @@ const ContactForm = () => {
           {errors.email && (
             <p
               style={{
-                color: "red",
+                color: "#FFF6E8",
                 paddingLeft: "15px",
                 marginTop: "-20px",
                 marginBottom: "20px",
@@ -178,7 +178,7 @@ const ContactForm = () => {
           {errors.message && (
             <p
               style={{
-                color: "red",
+                color: "#FFF6E8",
                 paddingLeft: "15px",
                 marginTop: "-20px",
                 marginBottom: "20px",
@@ -190,7 +190,7 @@ const ContactForm = () => {
         </div>
         <button
           type="submit"
-          className="submitbtn mt-2 mb-10 ml-4 px-6 btn btn-secondary rounded-lg border-0 border-[colordark]"
+          className={`${styles.buttoncopy} submitbtn mt-2 mb-10 ml-4 px-6 btn btn-secondary rounded-lg border-0 border-[colordark]`}
           onMouseEnter={() => handlebooknowmouseenter(".submitbtn")}
           onMouseLeave={() => handlebooknowmouseleave(".submitbtn")}
           disabled={isSubmitting}

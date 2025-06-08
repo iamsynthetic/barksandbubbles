@@ -136,6 +136,14 @@ $bg-lightgrey: rgba($color-lightgrey, 1);
   margin-right: 70px;
 }
 
+.buttoncopy {
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+}
+
 .showmenuitems {
   display: block;
   z-index: 2000;

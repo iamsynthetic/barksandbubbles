@@ -33,17 +33,24 @@ $bg-colorlight: rgba($colorlight, 1);
   white-space: nowrap;
   // filter: drop-shadow(4px 3px 0px rgba(28, 2, 33, 0.4));
 }
-
+.pretitletxt {
+  color: $colordark;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
+  font-weight: 500;
+  font-style: normal;
+  // white-space: nowrap;
+  // font-size: 20px;
+}
 .pretitlecopy {
   color: $colordark;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
   font-weight: 500;
   font-style: normal;
   font-size: 20px;
 }
 
 .titlecopy {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
@@ -51,21 +58,21 @@ $bg-colorlight: rgba($colorlight, 1);
 }
 .bodycopy {
   color: $colordark;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
 }
 
 .pricecopy {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
 }
 
 .timecopy {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
   font-weight: 500;
   font-style: italic;
   font-size: 16px;

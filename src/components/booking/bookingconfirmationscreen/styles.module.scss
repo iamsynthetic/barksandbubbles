@@ -54,7 +54,14 @@ $bg-colorlight: rgba($colorlight, 1);
   white-space: nowrap;
   // filter: drop-shadow(4px 3px 0px rgba(28, 2, 33, 0.4));
 }
-
+.pretitletxt {
+  color: $colordark;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
+  font-weight: 500;
+  font-style: normal;
+  // white-space: nowrap;
+  // font-size: 20px;
+}
 .pretitlecopy {
   color: $colordark;
   font-family: "Nunito", sans-serif;

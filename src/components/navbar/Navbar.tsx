@@ -243,7 +243,7 @@ const Navbar = () => {
           <div className="form-control z-[600]">
             <button
               id="booknowbtn"
-              className="mobilebooknow btn btn-secondary rounded-xl border-0"
+              className={`${styles.buttoncopy} mobilebooknow btn btn-secondary rounded-xl border-0`}
               onMouseEnter={() => handlebooknowmouseenter(".mobilebooknow")}
               onMouseLeave={() => handlebooknowmouseleave(".mobilebooknow")}
               onClick={handleBookNowClick}
